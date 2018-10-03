@@ -1,0 +1,21 @@
+*{
+  color: blue;
+  background-color: bisque;
+}
+
+div {
+  padding-right: 10px;
+}
+
+/*header {
+  display: flex;
+}
+
+header > div:nth-child(3) {
+  margin-left: auto;
+}*/
+
+header.div {
+  display: grid;
+  grid-template-columns: repeat(10, 1 fr);
+}
